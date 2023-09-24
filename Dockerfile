@@ -1,6 +1,6 @@
 FROM dapize/rehlds:latest
 
-RUN apt-get update && apt-get install -y wget curl unzip
+RUN apt update && apt install -y wget curl unzip
 
 # Installing AMX Mod X
 RUN AMX_WEB="https://www.amxmodx.org/amxxdrop/1.9"\
