@@ -1,0 +1,9 @@
+image: atlassian/default-image:3
+
+clone:
+  depth: full
+pipelines:
+  default:
+    - step:
+        script:
+          - git push --mirror git@github.com:dapize/hlds-pack.git
