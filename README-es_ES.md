@@ -42,7 +42,7 @@ docker run -d --name my-hlds-server\
 Puedes usar este ejemplo escrito en el archivo docker-compose.yaml:
 
 ```
-version: "2"
+version: "3.9"
 services:
   rehlds:
     image: dapize/hlds-pack:latest
